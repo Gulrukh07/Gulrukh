@@ -243,7 +243,10 @@ button {
 ### 6. **Running the Django Application**
 
 ```bash
-python manage.py runserver localhost:8000
+python manage.py runserver localhost:8000 # to run django
+docker compose up #command to run docker + django
+docker compose dowm # command to stop docker + django
+
 
 ```
 
